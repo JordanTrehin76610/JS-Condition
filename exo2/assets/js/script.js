@@ -7,6 +7,7 @@ if (isNaN(entier)) {
 } else if (entier % 2 === 0) {
 
     console.log("Ce nombre est pair")
+
 }
 else {
 
