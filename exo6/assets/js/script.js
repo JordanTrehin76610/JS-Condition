@@ -7,3 +7,5 @@ if (isNaN(mois) || mois > 12 || mois < 1) {
 } else {
     console.log(NOM_DU_MOIS)
 }
+
+// Un switch aurait pu être pertinant bien que trop long
