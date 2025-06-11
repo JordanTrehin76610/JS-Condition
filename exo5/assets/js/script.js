@@ -6,19 +6,19 @@ if (isNaN(moyenne) || moyenne > 20 || moyenne < 0) {
     if (moyenne === 0) {
         console.log("Un rendez-vous est programmé")
     }
-    if (moyenne >= 1 && moyenne <= 5) {
+    else if (moyenne <= 5) {
         console.log("Trimestre insuffisant")
     }
-    if (moyenne >= 6 && moyenne <= 10) {
+    else if (moyenne <= 10) {
         console.log("Trimestre moyen")
     }
-    if (moyenne >= 11 && moyenne <= 13) {
+    else if (moyenne <= 13) {
         console.log("Bon trimestre")
     }
-    if (moyenne >= 14 && moyenne <= 18) {
+    else if (moyenne <= 18) {
         console.log("Excellent trimestre")
     }
-    if (moyenne > 18 && moyenne < 21) {
+    else {
         console.log("Félicitation")
     }
 }
